@@ -1,0 +1,208 @@
+html, body {
+    background-color:#BDA5AD;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    width: 100%;
+  }
+  
+  /*My questions: where does the border in the back come from?
+  How do I get the chats layout to be correct? 
+  Is the technique with all of that margin & padding used correctly or which way would be easier?*/
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+  }
+  .flex-container {
+    display: flex;
+    margin :0 auto;
+  }
+  .chat-time{
+    width:30%;
+    margin-bottom:30px;
+  }
+  .no-unread{
+    margin-right:24px;
+  }
+  img {
+    border-radius: 90px;
+    height: 50px;
+  
+  }
+  
+  .left {
+    background-color: #874C63;
+    width: 400px;
+    padding: 10px;
+    
+  }
+  
+  .right {
+    background-color: #F6F2F2;
+    display: float;
+    
+  }
+  
+  
+  .chats {
+    color: white;
+    border-bottom: 1px solid white;
+    align-items: center;
+    height: 58px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .chats1 {
+    display: flex;
+    flex-direction: column; 
+    margin: 0 10px;
+    width: 47%;
+  }
+  
+  .chats1 p {
+    display: flex;
+    margin: 0;
+  }
+  
+  h2 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  .janedoe {
+    margin: 0px;
+    
+  }
+  
+  
+  .doe {
+    display: flex;
+    align-items: center;
+    margin: 0px 10px 10px 0;
+  }
+  
+  .doe h2 {
+    margin: 10px;
+    color: white;
+    
+  }
+  
+  .janedoe input {
+    background-color: #2F4858;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    height: 28px;
+    margin: 0 5px 15px 5px;
+    width: 97%;
+    border: 0px;
+    border-radius: 10px;
+  }
+  
+  .chats:nth-child(2) {
+    background-color: #2F4858;
+  }
+  
+  .chats p:nth-child(4) {
+    background-color: #ad9839;
+    color: #B46169;
+    width: 24px;
+    text-align: center;
+    border-radius: 90px;
+    margin-bottom:25px;
+  }
+  
+  .chats p:nth-child(3) {
+    display: flex;
+    
+  }
+  
+  .chats p:nth-child(2) {
+    
+  }
+  
+  .irna {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #B46169;
+    height: 60px;
+  }
+  
+  .irna h2 {
+    padding: 10px;
+    color: white;
+    font-weight: normal;
+    justify-content: center;
+    
+  }
+  
+  .janechat p {
+    background-color: white;
+    width: 400px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 20px 0px 0 100px;
+  }
+  
+  .janechat {
+    display: flex;
+    width: 550px;
+    
+    margin: 15px 10px 10px 0px;
+  }
+  
+  .janechat img {
+    width: 50px;
+    margin: 20px 0px 10px 20px;
+  }
+  
+  .irnachat p {
+    background-color: white;
+    width: 400px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 20px 100px 0 0px;
+  }
+  
+  .irnachat {
+    display: flex;
+    width: 550px;
+    
+    margin: 15px 0px 10px 10px;
+  }
+  
+  .irnachat img {
+    width: 50px;
+    margin: 20px 20px 10px 0px;
+  }
+  
+  .inputtext input {
+    width: 99%;
+    height: 50px;
+    margin: 32px 0 0 0;
+    border: 0;
+  }
+  
+  button {
+    background: #ad9839;
+    height: 50px;
+    width: 50px;
+    border-radius: 90px;
+    border: 0;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    float: right;
+    margin: 20px 0;
+  }
+  
+  .irna p {
+    display: flex;
+    justify-content: center;
+    margin: auto 250px auto auto;
+    color: white;
+  }
